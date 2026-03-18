@@ -36,12 +36,14 @@ The system is built on a modular, agent-centric architecture:
 ### Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/YourOrg/Agentic-Legal.git
    cd Agentic-Legal
    ```
 
 2. **Create a virtual environment:**
+
    ```bash
    python -m venv venv
    # On Windows:
@@ -58,6 +60,7 @@ The system is built on a modular, agent-centric architecture:
 ### Configuration
 
 Configure the environments in the `config/` directory:
+
 - `config/dev.yaml` - Local development settings (default)
 - `config/staging.yaml` - Staging environment setup
 - `config/prod.yaml` - Production configuration
